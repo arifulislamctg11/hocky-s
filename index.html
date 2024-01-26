@@ -112,19 +112,37 @@
         <div id="slide2" class="carousel-item relative w-full">
           <img src="./images/2.png" class="w-full" />
           <div
-            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 lg:top-[38rem] lg:w-28"
           >
-            <a href="#slide1" class="btn btn-circle">❮</a>
-            <a href="#slide3" class="btn btn-circle">❯</a>
+            <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+            <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+          </div>
+          <div
+            class="hidden lg:block lg:w-[550px] lg:right-5 -bottom-52 lg:bottom-5 bg-black text-white absolute rounded-2xl p-11"
+          >
+            <h2 class="font-extrabold">Meet all the heroes from the field</h2>
+            <p>
+              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+              turpis placerat dolor. Purus urna in sit nullam proin.
+            </p>
           </div>
         </div>
         <div id="slide3" class="carousel-item relative w-full">
           <img src="./images/3.png" class="w-full" />
           <div
-            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 lg:top-[38rem] lg:w-28"
           >
-            <a href="#slide2" class="btn btn-circle">❮</a>
-            <a href="#slide1" class="btn btn-circle">❯</a>
+            <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
+            <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+          </div>
+          <div
+            class="hidden lg:block lg:w-[550px] lg:right-5 -bottom-52 lg:bottom-5 bg-black text-white absolute rounded-2xl p-11"
+          >
+            <h2 class="font-extrabold">Meet all the heroes from the field</h2>
+            <p>
+              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+              turpis placerat dolor. Purus urna in sit nullam proin.
+            </p>
           </div>
         </div>
       </div>
@@ -714,20 +732,81 @@
                 >Message</label
               >
               <textarea
-                class="bg-slate-300 bg-[#13131808] bg-opacity-30 rounded p-1 mb-8 flex-grow"
+                class="bg-slate-300 bg-[#13131808] bg-opacity-30 rounded p-1 mb-8 flex-grow text-[#1313184D]"
                 type="text"
                 id="message"
                 placeholder="Write your message"
               >
-              </textarea>
-              <button class="btn bg-hockey-primary-color">Send Message</button>
+ Write your message</textarea
+              >
+              <button class="btn bg-hockey-primary-color text-white">
+                Send Message
+              </button>
             </div>
+          </div>
+          <div class="mt-9 bg-[#13131808] rounded-xl flex flex-col text-center">
+            <h2 class="tex-[#131318] font-bold mt-9">Social Media</h2>
+            <img
+              class="w-36 ml-auto mr-auto mt-6 mb-8"
+              src="./images/social-icons.svg"
+              alt=""
+            />
           </div>
         </div>
       </section>
-      <section>
-        <h1>this another demo section</h1>
-      </section>
+      <footer class="bg-black mt-10">
+        <section class="w-[96%] lg:w-[90%] mx-auto">
+          <div
+            class="flex flex-col gap-5 lg:flex-row lg:justify-between pt-28 pb-28 text-[#FFFFFF99]"
+          >
+            <div class="text-center lg:text-left">
+              <h2 class="text-white text-3xl mb-4">Get In Touch</h2>
+              <p class="mb-6">
+                Dit amet consectetur. Condimentum <br />
+                adipiscing aliquam turpis placerat dolor. <br />
+                Purus urna in sit nullam proin.
+              </p>
+              <div class="flex justify-center lg:justify-start">
+                <img src="./images/email-orange-ico.svg" alt="" />
+                <p class="ml-2">hockeys@support.com</p>
+              </div>
+              <div class="flex mt-5 justify-center lg:justify-start">
+                <img src="./images/phone-orange-ico.svg" alt="" />
+                <p class="ml-2">(+62) 123-321-543</p>
+              </div>
+            </div>
+            <div class="text-center lg:text-left">
+              <h3 class="text-white text-xl mb-4">Company</h3>
+              <ul>
+                <li class="mb-3">About us</li>
+                <li class="mb-3">Leadership</li>
+                <li class="mb-3">Careers</li>
+                <li class="mb-3">News & Article</li>
+                <li class="mb-3">Legal Notice</li>
+              </ul>
+            </div>
+            <div class="text-center lg:text-left">
+              <h3 class="text-white text-xl mb-4">Support</h3>
+              <ul>
+                <li class="mb-3">Help Center</li>
+                <li class="mb-3">FAQ</li>
+                <li class="mb-3">Ticket Support</li>
+                <li class="mb-3">Contact Us</li>
+              </ul>
+            </div>
+            <div class="text-center lg:text-left">
+              <h3 class="text-white text-xl mb-4">Services</h3>
+              <ul>
+                <li class="mb-3">Academy</li>
+                <li class="mb-3">Group Lesson</li>
+                <li class="mb-3">Private Lesson</li>
+                <li class="mb-3">Hockeys for kids</li>
+                <li class="mb-3">Hockeys for Adult</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </footer>
     </main>
   </body>
 </html>
